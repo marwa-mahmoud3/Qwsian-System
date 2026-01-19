@@ -2,13 +2,6 @@
 
 Qwsian is a comprehensive educational platform designed to deliver a seamless digital learning experience. It features an integrated Learning Management System (LMS) that allows users to browse courses, read educational articles, and interact with structured lessons, while providing administrators with full control over content and users.
 
-## 🌐 Live Demo  
-
-- [🔗 Visit Qwsian](https://qwsian.vercel.app/home)
-- [🔗 Visit Dashboard](https://qwsian.vercel.app/home)
-
----
-
 
 ## ✨ Key Features
 - 📚 **Learning Management (LMS):** Full CRUD operations for courses and lessons handled via .NET Web API.
