@@ -1,58 +1,90 @@
-## 📘 Case Study: Qwsian – Interactive E-Learning Platform
+# 📘 Case Study: Qwsian – Interactive E-Learning Platform & CMS
+### Full-Stack Educational Ecosystem (.NET Core & Angular 16)
 
-Qwsian is a comprehensive educational platform designed to deliver a seamless digital learning experience. It features an integrated Learning Management System (LMS) that allows users to browse courses, read educational articles, and interact with structured lessons, while providing administrators with full control over content and users.
+<br>
 
+<p align="center">
+  <img src="Gallery/01-Home Page.PNG" width="85%" alt="Qwsian Platform Preview">
+</p>
+<p align="center">
+  <strong>Note:</strong> <i>Explore the full interface gallery, including the Admin ERP Dashboard, in the <a href="./Gallery">Gallery</a> folder.</i>
+</p>
 
-## ✨ Key Features
-- 📚 **Learning Management (LMS):** Full CRUD operations for courses and lessons handled via .NET Web API.
+<br>
 
-- 🔐 **Advanced Authentication:** Secure identity management using JWT (JSON Web Tokens).
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt=".NET Core">
+  <img src="https://img.shields.io/badge/Angular_16-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server">
+  <img src="https://img.shields.io/badge/JWT-Secure_Auth-00BFFF?style=for-the-badge&logo=json-web-tokens&logoColor=white" alt="JWT">
+</p>
 
-- 📝 **Dynamic Content Engine:** A custom-built API to serve educational articles and code snippets dynamically.
+---
 
-- 🖥️ **Admin ERP Dashboard:** A complete administrative suite to monitor user activity and manage the educational database.
+## 📝 Project Overview
+**Qwsian** is a comprehensive e-learning ecosystem designed to provide a seamless digital education experience. It features a robust **Learning Management System (LMS)** for students and a powerful **ERP Admin Dashboard** for content creators.
 
-- 🚀 **Performance Optimized:** Utilizing RxJS in Angular and Entity Framework Core in the backend for efficient data fetching.
+As the **Lead Full-Stack Developer**, I architected both the backend (RESTful API) and the frontend, focusing on creating a dynamic "Content Engine" that allows administrators to manage every aspect of the platform.
+
+---
+
+## 🚀 Key Technical Features
+
+### 1️⃣ Advanced Admin ERP Dashboard
+* **Dynamic Content Editor**: Integrated **ngx-summernote** to allow admins to write and format educational lessons and articles directly from the dashboard.
+* **Smart Data Management**: Built complex, filterable data tables using **Angular DataTables** with server-side **Pagination** to handle large volumes of student and course records efficiently.
+* **Modern UI Components**: Leveraged **Ignite UI** and **Angular Material** for a high-performance, responsive administrative suite.
+
+### 2️⃣ Robust Backend Architecture
+* **RESTful API**: Engineered using **.NET Core**, providing secure and scalable endpoints for LMS operations.
+* **Identity & Security**: Implemented secure user authentication and authorization using **JWT (JSON Web Tokens)**.
+* **Data Layer**: Optimized queries using **Entity Framework Core** and **SQL Server** to ensure fast content delivery.
+
+### 3️⃣ Frontend Excellence
+* **Code Highlighting**: Integrated **ngx-highlightjs** to support technical articles with beautiful, readable code snippets.
+* **State Management**: Utilized **RxJS** for reactive data handling and seamless UI updates.
 
 ---
 
 ## 🛠 Technical Stack
-- **Frontend:** Angular, Bootstrap.
-
-- **Backend:** .NET Core Web API, C#.
-
-- **Database:** SQL Server / Entity Framework Core.
-
-- **Security:** JWT Authentication.
-
-- **Tools:** Swagger UI for API documentation, RxJS for state management.
+* **Frontend**: Angular 16, Ignite UI, Angular Material, Bootstrap 5.
+* **Backend**: .NET Core Web API, C#, Entity Framework Core.
+* **Database**: SQL Server.
+* **Security**: JWT Authentication, CryptoJS for client-side security.
+* **UX/UI Tools**: Fancyapps (Gallery), Swiper, Summernote Editor.
 
 ---
 
 ## 📌 Key Technical Challenges & Solutions
-- **End-to-End Integration:** Designed and implemented a RESTful API architecture to ensure seamless communication between the Angular frontend and .NET backend.
-
-- **Responsive Data Tables:** Built complex, filterable data tables in the admin dashboard to manage large volumes of educational records.
-
-- **Secure File Uploads:** Implemented a secure system for uploading course materials and article images.
+* **Challenge**: Building a flexible lesson editor that supports rich text and code.
+* **Solution**: Integrated **ngx-summernote** customized with **ngx-highlightjs**, allowing admins to create high-quality technical content easily.
+* **Challenge**: Managing large-scale data tables in the dashboard without compromising performance.
+* **Solution**: Implemented custom **Pagination** and efficient data-fetching patterns in Angular to ensure the dashboard remains snappy.
 
 ---
 
 ## 🖼 Visual Showcase
-Note: All project interface captures, dashboard previews, and user flow diagrams can be found in the [Gallery](/Gallery) folder of this repository.
+*(Check the [Gallery](./Gallery) folder for the full set of high-resolution dashboard and UI captures)*
+
+<p align="center">
+  <img src="Gallery/18-Categories CRUD.PNG" width="48%" alt="Admin Dashboard">
+  <img src="Gallery/20-Edit Lesson from Dashboard.PNG" width="48%" alt="Content Editor">
+</p>
 
 ---
 
+## 👤 Contributors
+* **Marwa Mahmoud** – Full Stack Development (Architecture, .NET API & Angular Dashboard).
+* **Yomna Raafat** – UI Developer.
 
-## 👥 Contributors
+---
 
-* **Marwa Mahmoud** ([@marwa-mahmoud3](https://github.com/marwa-mahmoud3)) - Full Stack Development (Angular & .NET).
-* **Yomna Raafat** ([@YOmnAA98](https://github.com/YOmnAA98)) - UI Developer.
+## 📩 Contact & Professional Profiles
+**Marwa Mahmoud Mohamed** – Senior Software Engineer  
 
-----
+📧 **Email**: [marwa.sw.eng@outlook.com](mailto:marwa.sw.eng@outlook.com)  
+🔗 **LinkedIn**: [marwa-mahmoud123](https://www.linkedin.com/in/marwa-mahmoud123)  
+💻 **Portfolio**: [marwa-mahmoud-sw-eng.vercel.app](https://marwa-mahmoud-sw-eng.vercel.app/)
 
-## 🔒 Intellectual Property & Access
-
-To respect intellectual property rights, the source code is hosted in a Private Repository. This Case Study is intentionally designed to showcase System Architecture, Complex SQL Integrations, and Advanced UI/UX Design skills through documentation and visual assets.
-
-----
+---
+*Disclaimer: The source code is hosted in a private repository for intellectual property reasons. This case study demonstrates expertise in System Architecture and Full-Stack Integration.*
