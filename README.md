@@ -79,12 +79,16 @@ As the **Lead Full-Stack Developer**, I architected both the backend (RESTful AP
 
 ---
 
-## 📩 Contact & Professional Profiles
-**Marwa Mahmoud Mohamed** – Senior Software Engineer  
+## 👤 Contact Information
 
-📧 **Email**: [marwa.sw.eng@outlook.com](mailto:marwa.sw.eng@outlook.com)  
-🔗 **LinkedIn**: [marwa-mahmoud123](https://www.linkedin.com/in/marwa-mahmoud123)  
-💻 **Portfolio**: [marwa-mahmoud-sw-eng.vercel.app](https://marwa-mahmoud-sw-eng.vercel.app/)
+**Name:** Marwa Mahmoud El-Khatib
+
+**Email:** [marwa.m.elkhatib@outlook.com](mailto:marwa.m.elkhatib@outlook.com)
+
+**Connect with me:**
+
+- LinkedIn: [marwa-mahmoud-elkhatib](https://www.linkedin.com/in/marwa-mahmoud-elkhatib)
+- Portfolio: [marwa-mahmoud-elkhatib.vercel.app](https://marwa-mahmoud-elkhatib.vercel.app/)
 
 ---
 *Disclaimer: The source code is hosted in a private repository for intellectual property reasons. This case study demonstrates expertise in System Architecture and Full-Stack Integration.*
